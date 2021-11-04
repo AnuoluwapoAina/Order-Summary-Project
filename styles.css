@@ -14,23 +14,17 @@ h1,h2,h3,h4,h5,h6, p {
   margin: 0;
 }
 
-p{
-  color: hsl(224, 23%, 55%);
-  font-size: 16px;
-}
-
-h2{
+.order-page h2{
   margin-bottom: 10px;
   font-weight: 900;
   color:hsl(223, 47%, 23%);
 }
 
-h3 {
-margin-top: 10px;
-color: hsl(223, 47%, 23%);
-font-size: 14px;
-font-weight: 900;
+.order-page p{
+  color: hsl(224, 23%, 55%);
+  font-size: 16px;
 }
+
 
 .main-container {
   width: 100%;
@@ -68,17 +62,30 @@ font-weight: 900;
   height: 75px;
   margin: 0 25px 15px 25px;
   display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
   border-radius: 7px;
 }
 
-.music-img {
-  margin: 15px;
-  float: left;
+.music-annual-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.music-img{
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.annual-page .plan h3 {
+color: hsl(223, 47%, 23%);
+font-size: 14px;
+font-weight: 900;
 }
 
 .span{
-  margin-top: 30px;
-  margin-left: 70px;
   color: hsl(245, 75%, 52%);
   font-weight: 600;
 }
