@@ -62,8 +62,8 @@ h1,h2,h3,h4,h5,h6, p {
 .annual-page {
   background: hsl(225, 100%, 98%);
   height: 80px;
-  margin: 0 25px 15px 25px;
-  display: flex;
+  margin: 15px;
+ display: flex;
   padding: 10px;
   justify-content: space-between;
   align-items: center;
@@ -97,6 +97,7 @@ font-weight: 900;
     clear:both;
     margin: 0 auto;
     text-align: center;
+    padding-top: 20px;
 }
 .button {
   background:hsl(245, 75%, 52%);
@@ -174,7 +175,6 @@ h4 {
 
 .annual-page {
   width: 90%;
-  margin: 0 15px 15px 15px;
 }
 
 }
