@@ -14,6 +14,7 @@ h1,h2,h3,h4,h5,h6, p {
   margin: 0;
 }
 
+
 .order-page h2{
   margin-bottom: 10px;
   font-weight: 900;
@@ -23,16 +24,17 @@ h1,h2,h3,h4,h5,h6, p {
 .order-page p{
   color: hsl(224, 23%, 55%);
   font-size: 16px;
+  line-height: 23px;
 }
 
 
 .main-container {
   width: 100%;
   min-height:100vh;
-  background-image: url(background-img.svg);
   background-color:  hsl(225, 100%, 94%);
+  background-image: url(background-img.svg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100%; /* this is for image size not background*/
   display:flex;
   justify-content: center;
   align-items:center;
@@ -59,7 +61,7 @@ h1,h2,h3,h4,h5,h6, p {
 
 .annual-page {
   background: hsl(225, 100%, 98%);
-  height: 75px;
+  height: 80px;
   margin: 0 25px 15px 25px;
   display: flex;
   padding: 10px;
@@ -88,6 +90,7 @@ font-weight: 900;
 .span{
   color: hsl(245, 75%, 52%);
   font-weight: 600;
+  text-decoration: underline;
 }
 
 .btn{
@@ -113,4 +116,84 @@ h4 {
   color: hsl(223, 47%, 23%);
   font-weight: 900;
   margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+  .main-container {
+    height: unset;
+    padding: 40px 0;
+    background-image: url(background-img.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+  }
+
+  h4 {
+    color: hsl(224, 23%, 55%);
+    letter-spacing: 1px;
+  }
+
+
+  .container{
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .container {
+    width: 50%;
+    }
+
+}
+
+
+@media screen and (max-width: 426px) {
+
+  .main-container {
+    background-repeat: no-repeat;
+    background-size: 100% 40%;
+    height: unset;
+    padding: 40px 0;
+  }
+
+
+  .container {
+    height: unset;
+      width: 350px;
+    }
+
+.order-page {
+    padding: 25px;
+    margin: 15px;
+    line-height: 25px;
+}
+
+button {
+margin: 10px auto;
+box-shadow: 7px 10px hsl(225deg 100% 94%);
+}
+
+
+.annua-page {
+  width: 90%;
+}
+
+}
+
+@media screen and (max-width: 377px) {
+  .main-container {
+    width: 100%;
+    padding: 0;
+    height: unset;
+    background-color:  hsl(225, 100%, 94%);
+  }
+
+  .container {
+    width: 350px;
+    height: unset;
+    margin: 15px;
+  }
 }
