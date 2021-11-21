@@ -171,13 +171,8 @@ h4 {
     line-height: 25px;
 }
 
-button {
-margin: 10px auto;
-box-shadow: 7px 10px hsl(225deg 100% 94%);
-}
 
-
-.annua-page {
+.annual-page {
   width: 90%;
 }
 
