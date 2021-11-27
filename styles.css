@@ -90,7 +90,12 @@ font-weight: 900;
 .span{
   color: hsl(245, 75%, 52%);
   font-weight: 600;
+}
+
+.span:hover {
   text-decoration: underline;
+  color:#2961e0;
+
 }
 
 .btn{
@@ -108,7 +113,12 @@ font-weight: 900;
   height: 50px;
   font-weight: 900;
   border-radius: 12px;
+}
+
+.button:hover {
+  background: #2961e0;
   box-shadow: 5px 10px  hsl(225, 100%, 94%);
+
 }
 
 h4 {
@@ -125,7 +135,7 @@ h4 {
 
   .main-container {
     height: unset;
-    padding: 40px 0;
+    padding: 30px 0;
     background-image: url(background-img.svg);
     background-repeat: no-repeat;
     background-size: 100% 50%;
@@ -157,7 +167,7 @@ h4 {
     background-repeat: no-repeat;
     background-size: 100% 40%;
     height: unset;
-    padding: 40px 0;
+    padding: 25px 0;
   }
 
 
@@ -188,7 +198,7 @@ h4 {
   }
 
   .container {
-    width: 350px;
+    width: 300px;
     height: unset;
     margin: 15px;
   }
